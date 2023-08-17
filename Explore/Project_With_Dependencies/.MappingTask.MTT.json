@@ -1,0 +1,91 @@
+{
+  "objectInfo" : {
+    "id" : "0447ufUbnPhfk3wxQ8wrKk",
+    "name" : "MappingTask",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100020Z000000000034"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2023-08-17T11:06:04.225Z",
+  "objectRefs" : [ {
+    "id" : "4KkxIcHhg2gdVus6n52jy7",
+    "name" : "MappingWithDependency1",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010002170000000000MT"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Project_With_Dependencies"
+  }, {
+    "id" : "fDCawVes6qUjAT5yrmIIMw",
+    "name" : "ff",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100020B000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "1AhnQDPK0IhcbNdY2PjQei",
+    "name" : "testagent",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01000225000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
